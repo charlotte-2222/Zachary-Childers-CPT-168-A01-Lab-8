@@ -20,8 +20,15 @@ int main()
 		cout << "\n\t\t\t******************************";
 
 		//Begin Array, declare input
-		string calendar[] = { " ", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" };
-		string flower[] = { " ", "Carnation", "Iris", "Daffodil", "Daisy", "Lily of the Valley", "Rose", "Sunflower", "Gladiolus", "Aster", "Snapdragon", "Chrysanthemum", "Orchid" };
+		string calendar[] = {
+			" ", "January", "February", "March", "April",
+			"May", "June", "July", "August","September", 
+			"October", "November", "December" };
+		string flower[] = {
+			" ", "Carnation", "Iris", "Daffodil", "Daisy",
+			"Lily of the Valley", "Rose", "Sunflower", 
+			"Gladiolus", "Aster", "Snapdragon", 
+			"Chrysanthemum", "Orchid" };
 		int input = 0;
 
 		cout << "\n\t\t\tPlease enter your birth month <1 - 12>: ";
